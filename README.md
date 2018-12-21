@@ -10,7 +10,7 @@
 ## Step 1: Add the Form
  - events-form.tpl
 
-Create a calendar for the Events and upload the following form 
+Create a calendar for the Events and upload the following form. Be sure to replace SITE_NAME with your site's name.
 
 ```
 <div class="panel-group">

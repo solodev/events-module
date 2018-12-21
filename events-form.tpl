@@ -229,7 +229,7 @@
         <div class="row">
           <div class="col-md-12">
             <p class="subText">You can access this event post at the following URL:</p>
-            <a href="https://www.100k-theme.com<?= $calendar_entry->path ?>" target="_blank">https://www.100k-theme.com
+            <a href="https://www.SITE_NAME.com<?= $calendar_entry->path ?>" target="_blank">https://www.SITE_NAME.com
               <?= $calendar_entry->path ?></a>
           </div>
         </div>

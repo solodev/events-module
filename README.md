@@ -350,7 +350,17 @@ Add the following repeater shortcode.
  - /_/js/events.js
  
  ```
-             newPostIntro = document.createTextNode(postIntros[i].textContent.substring(0, 70) + "...");
+
+/** ===========================================
+  # Excerpt Function for Blog & Resources
+============================================ */
+window.onload = function () {
+    var postIntros = document.getElementsByClassName('post-intro');
+    var newPostIntro;
+
+    for (var i = 0; i < postIntros.length; i++) {
+        if (postIntros[i].textContent.length > 244) {
+            newPostIntro = document.createTextNode(postIntros[i].textContent.substring(0, 70) + "...");
 
             postIntros[i].textContent = "";
             postIntros[i].appendChild(newPostIntro);
@@ -374,5 +384,4 @@ Add the following repeater shortcode.
         }
     }
 };
- 
  ```

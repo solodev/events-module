@@ -342,6 +342,7 @@ Add the following repeater shortcode.
     </div>
   </div>
 </div>
+{{post_javascript}}
 [/entry]
 ```
 
